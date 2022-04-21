@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
+body {
+  box-sizing: border-box;
+  background: linear-gradient(to left, #ffffff 0%, #000000 1000%);
+  text-align: center;
+  font-family: "Nova Mono", monospace;
+}
+
+.logo {
+  padding: 10px;
+  text-align: left;
+  margin-left: 50px;
+  color: #fff;
+  text-shadow: 0 0 7px rgb(249, 0, 0), 0 0 10px rgb(249, 0, 0),
+    0 0 21px rgb(249, 0, 0), 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa,
+    0 0 102px #0fa, 0 0 151px #0fa;
+}
+.alt-logo {
+  text-align: left;
+  margin-left: 50px;
+}
+
+li {
+  background-color: #04aa6d;
+  opacity: 0.9;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+li:hover {
+  opacity: 1;
+}
+
+button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.details {
+  position: relative;
+}
+
+.delete {
+  padding: 3px;
+}
+.delete:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgb(227, 15, 15);
+}
+
+/* Login-Register Page Styles */
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  margin: 50px;
+  border: solid 0.7px;
+  background-color: none;
+  display: inline-block;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 2;
+  border: none;
+  background: #f1f1f1;
+  margin: 0 auto;
+}
+
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
