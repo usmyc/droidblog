@@ -21,7 +21,7 @@ app.use(cookieParser());
 
 //database connection
 const dbURI =
-  "mongodb+srv://samet:Usame123456@exercise.mqmke.mongodb.net/blogdatabase?retryWrites=true&w=majority";
+  "mongodb+srv://username:password@exercise.mqmke.mongodb.net/databasename?retryWrites=true&w=majority";
 mongoose.connect(dbURI);
 
 // HTML rendering
